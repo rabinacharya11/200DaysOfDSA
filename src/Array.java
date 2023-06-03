@@ -6,23 +6,35 @@ public class Array {
 
         // scanner for user input
         Scanner in = new Scanner(System.in);
-// declaring the array
-        int[] arr = new int[5]; // arr size => 5
-        // taking the input from the user iterating the loop for the size of array
-        // using for loop
-        for (int i = 0; i < arr.length; i++) {
-            arr[i] = in.nextInt();
-        }
+//// declaring the array
+//        int[] arr = new int[5]; // arr size => 5
+//        // taking the input from the user iterating the loop for the size of array
+//        // using for loop
+//        for (int i = 0; i < arr.length; i++) {
+//            arr[i] = in.nextInt();
+//        }
+//
+//        // using enhanced for loop printing the values of the array
+//
+//        for (int element : arr) {
+//
+//
+//            System.out.println(element); // prints the element and breaks the line after done printing
+//        }
+//
+//        // printing the values as string
+//        System.out.println(Arrays.toString(arr));
+//
+//
+//
 
-        // using enhanced for loop printing the values of the array
+String[] arr = new String[5];
 
-        for (int element : arr) {
+for(int i = 0 ; i<arr.length; i++) {
+arr[i] = in.nextLine();
+}
 
 
-            System.out.println(element); // prints the element and breaks the line after done printing
-        }
-
-        // printing the values as string
         System.out.println(Arrays.toString(arr));
     }
 }
