@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Array {
@@ -12,7 +13,6 @@ public class Array {
         for (int i = 0; i < arr.length; i++) {
             arr[i] = in.nextInt();
         }
-        System.out.println(arr.toString());
 
         // using enhanced for loop printing the values of the array
 
@@ -21,5 +21,8 @@ public class Array {
 
             System.out.println(element); // prints the element and breaks the line after done printing
         }
+
+        // printing the values as string
+        System.out.println(Arrays.toString(arr));
     }
 }
