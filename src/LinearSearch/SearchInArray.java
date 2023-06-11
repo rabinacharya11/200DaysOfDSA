@@ -1,4 +1,4 @@
-package Search;
+package LinearSearch;
 
 public class SearchInArray {
 

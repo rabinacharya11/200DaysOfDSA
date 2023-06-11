@@ -1,4 +1,4 @@
-package Search;
+package LinearSearch;
 
 public class MinMaxValue2D {
 

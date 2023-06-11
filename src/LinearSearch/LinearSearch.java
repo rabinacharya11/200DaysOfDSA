@@ -1,4 +1,4 @@
-package Search;
+package LinearSearch;
 
 // find if 14 exits  of not 14 is in the array or not
 public class LinearSearch {
